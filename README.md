@@ -12,11 +12,11 @@ This example works with PHP 7.4 and later. You can run it inside Docker (then it
 
 ## Running the example
 
-1. set and export a local environment variable called `NARAKEET_API_KEY`, containing your API key.
+1. set and export a local environment variable called `NARAKEET_API_KEY`, containing your API key (or modify [video.php](video.php) line 3 to include your API key).
 2. optionally edit [video.php](video.php) and modify the video zip archive, main video file, and the function that handles progress notification (lines 4, 5 and 6).
 2. to run inside docker, execute `make run`
 3. Or to run outside docker, on a system with `php` command line, execute `php video.php`
 
 ## More information
 
-Check out <https://www.narakeet.com/docs/automating/rest/> for more information on the Narakeet Text to Speech API
+Check out <https://www.narakeet.com/docs/automating/rest/> for more information on the Narakeet Markdown to Video API. 
