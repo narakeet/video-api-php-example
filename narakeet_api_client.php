@@ -95,7 +95,6 @@ class NarakeetApiClient {
     $tempFile = tempnam(sys_get_temp_dir(), "video");
     $curl = curl_init();
 
-    // Set the URL and options for the download
     curl_setopt($curl, CURLOPT_URL, $url);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curl, CURLOPT_FILE, fopen($tempFile, "w"));
