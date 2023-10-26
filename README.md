@@ -1,4 +1,4 @@
-# Narakeet Video Build API example in `PHP`
+# Narakeet Video Build API example in PHP
 
 This repository provides a quick example demonstrating how to access the Narakeet [markdown to video API](https://www.narakeet.com/docs/automating/rest/) from PHP.
 
